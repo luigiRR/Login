@@ -1,0 +1,74 @@
+<%- layout ('layouts/main.ejs') %>
+
+<br>
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h3>FORMULARIO</h3>
+        </div>
+        <div class="card-body">
+            <form action="/note/new-note" method="POST">
+                <div class="form-group">
+                    <h3>PROPIETARIO</h3>
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="nombre y apellido">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="telefono" class="form-control" placeholder="telefonos">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="address" class="form-control" placeholder="dirección">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="referencia1" class="form-control" placeholder="referencia para llegar">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" class="form-control" placeholder="e-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="dni" class="form-control" placeholder="DNI">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="facebook" class="form-control" placeholder="FACEBOOK">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="instagram" class="form-control" placeholder="instagram">
+                    </div>
+                    <h3>MASCOTA</h3>
+                    <div class="form-group">
+                        <input type="text" name="tipo" class="form-control" placeholder="tipo de mascota">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="raza" class="form-control" placeholder="RAZA">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="nombre" class="form-control" placeholder="nombre">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="sexo" class="form-control" placeholder="sexo">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="edad" class="form-control" placeholder="edad">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="referencia2" class="form-control"
+                            placeholder="Colores / Señas particulares:">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="page" class="form-control" placeholder="Facebook/Instagram">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="pregunta" class="form-control"
+                            placeholder="¿Se encuentra esterilizado?">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
