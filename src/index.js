@@ -41,6 +41,7 @@ app.use((req, res, next) => {
 //Routes
 app.use('/', require('./routes/index'));
 app.use('/', require('./routes/notes'));
+app.use('/', require('./routes/reserva'))
 
 //Listen
 app.listen(app.get('port'), () => {
