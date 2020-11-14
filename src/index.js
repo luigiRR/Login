@@ -38,7 +38,6 @@ app.use((req, res, next) => {
 });
 
 
-
 //Routes
 app.use('/', require('./routes/index'));
 app.use('/', require('./routes/notes'));
